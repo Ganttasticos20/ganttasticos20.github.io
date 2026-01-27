@@ -13,3 +13,15 @@ try {
 } catch (error) {
   console.log(error);
 }
+
+// Menú hamburguesa responsive
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.querySelector('.nav-menu');
+
+  if(hamburger && navMenu){
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('show');
+    });
+  }
+});

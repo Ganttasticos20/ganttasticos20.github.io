@@ -379,4 +379,21 @@ body {
   .hamburger {
     display: flex;
   }
+  @media(max-width:768px){
+  .nav-menu,.nav-search{display:none;}
+  .hamburger{display:flex;}
+}
+.nav-menu.show{
+  display:flex;
+  flex-direction:column;
+  position:absolute;
+  top:60px;
+  right:1.5rem;
+  background:rgba(2,6,23,0.95);
+  padding:1rem;
+  border-radius:8px;
+  box-shadow:0 0 15px rgba(56,189,248,0.5);
+  gap:1rem;
+}
+
 }
