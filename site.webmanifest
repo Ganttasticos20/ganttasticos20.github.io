@@ -1,26 +1,26 @@
 {
- "short_name": "PWA",
- "name": "Ejemplo de PWA",
+ "short_name": "pwa ganttastico",
+ "name": "GANTTASTICOS",
  "id": "/index.html",
  "start_url": "/index.html",
  "display": "standalone",
  "theme_color": "#cbc693",
  "background_color": "#ffffff",
- "description": "Ejemplos básico de PWA.",
+ "description": "GANTASTICOS.",
  "screenshots": [
   {
-   "src": "/img/screenshot_horizontal.png",
+   "src":"/img/LOGO.png",
    "sizes": "1507x777",
    "type": "image/png",
    "form_factor": "wide",
-   "label": "PWA Básica"
+   "label": "GANTTASTICOS"
   },
   {
    "src": "/img/screenshot_vertical.png",
    "sizes": "591x980",
    "type": "image/png",
    "form_factor": "narrow",
-   "label": "PWA Básica (2)"
+   "label": "GANTTASTICOS"
   }
  ],
  "icons": [

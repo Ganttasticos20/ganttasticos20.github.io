@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.11"
+const VERSION = "1.12"
 
 /** Nombre del archivo de cache. */
 const CACHE = "ejemploPWA"
@@ -40,6 +40,22 @@ const ARCHIVOS = [
  "img/maskable_icon_x96.png",
  "img/screenshot_horizontal.png",
  "img/screenshot_vertical.png",
+ "img/analisis.png",
+ "img/BALTA.png",
+ "img/gyn.png",
+ "img/FRENTEGANT.png",
+ "img/HECTOR.png",
+ "img/ITATI.png",
+ "img/iu.png",
+ "img/LOGO.png",
+ "img/MENDIETA.png",
+ "img/PSICO.png",
+ "img/psicologos.png",
+ "img/pwa.png",
+ "img/ROBER.png",
+ "img/sync.png",
+ "img/Vanne.png",
+ "img/web.png",
  "js/registraServiceWorker.js",
  "/"
 ]
@@ -49,7 +65,7 @@ if (self instanceof ServiceWorkerGlobalScope) {
  // Evento al empezar a instalar el servide worker,
  self.addEventListener("install",
   (/** @type {ExtendableEvent} */ evt) => {
-   console.log("El service worker se está instalando.")
+   console.log("El service ganttastico se está instalando.")
    evt.waitUntil(llenaElCache())
   })
 
@@ -62,7 +78,7 @@ if (self instanceof ServiceWorkerGlobalScope) {
 
  // Evento cuando el service worker se vuelve activo.
  self.addEventListener("activate",
-  () => console.log("El service worker está activo."))
+  () => console.log("El service ganttastico está activo."))
 }
 
 async function llenaElCache() {
