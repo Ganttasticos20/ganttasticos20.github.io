@@ -1,33 +1,34 @@
 {
- "short_name": "pwa ganttastico",
- "name": "GANTTASTICOS",
- "id": "/index.html",
- "start_url": "/index.html",
- "display": "standalone",
- "theme_color": "#cbc693",
- "background_color": "#ffffff",
- "description": "GANTASTICOS.",
- "screenshots": [
-  {
-   "src": "/img/LOGO.png",
-   "sizes": "1507x777",
-   "type": "image/png",
-   "form_factor": "wide",
-   "label": "GANTTASTICOS"
-  },
-  {
-   "src": "/img/LOGO.png",
-   "sizes": "591x980",
-   "type": "image/png",
-   "form_factor": "narrow",
-   "label": "GANTTASTICOS"
-  }
- ],
- "icons": [
-  {
-   "src": "/img/LOGO.png",
-   "sizes": "2048x2048",
-   "type": "image/png"
-  }
- ]
+  "short_name": "Ganttasticos",
+  "name": "GANTTASTICOS PWA",
+  "id": "/index.html",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#cbc693",
+  "background_color": "#ffffff",
+  "description": "GANTASTICOS.",
+  "icons": [
+    {
+      "src": "img/LOGO.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/LOGO.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "GANTTASTICOS"
+    },
+    {
+      "src": "img/LOGO.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "GANTTASTICOS"
+    }
+  ]
 }

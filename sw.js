@@ -1,6 +1,6 @@
 /* Este archivo debe estar colocado en la carpeta raíz del sitio. */
 
-const VERSION = "1.15"
+const VERSION = "1.16"
 const CACHE = "Ganttasticos-v1.12"
 
 const ARCHIVOS = [
