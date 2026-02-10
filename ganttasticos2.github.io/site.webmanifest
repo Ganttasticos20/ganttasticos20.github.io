@@ -121,14 +121,14 @@
       "sizes": "1024x768",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Vista de escritorio"
+      "label": "Escritorio"
     },
     {
       "src": "img/oficina.png",
       "sizes": "768x1024",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Vista móvil"
+      "label": "Móvil"
     }
   ]
 }
