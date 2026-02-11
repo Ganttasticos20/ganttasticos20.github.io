@@ -10,6 +10,12 @@
       "src": "img/LOGO.png",
       "sizes": "2048x2048",
       "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/LOGO.png",
+      "sizes": "2048x2048",
+      "type": "image/png",
       "purpose": "maskable"
     }
   ],
