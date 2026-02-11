@@ -1,4 +1,5 @@
-const VERSION = "1.60";
+/* Archivo Service Worker - Ganttásticos */
+const VERSION = "1.65";
 const CACHE = "Ganttasticos-v1.53";
 
 const ARCHIVOS = [
@@ -6,8 +7,24 @@ const ARCHIVOS = [
   "site.webmanifest",
   "css/estilos.css",
   "img/LOGO.png",
+  "img/analisis.png",
+  "img/BALTA.png",
+  "img/gyn.png",
+  "img/FRENTEGANT.png",
+  "img/HECTOR.png",
+  "img/ITATI.png",
+  "img/iu.png",
+  "img/MENDIETA.png",
+  "img/PSICO.png",
+  "img/psicologos.png",
+  "img/pwa.png",
+  "img/ROBER.png",
+  "img/sync.png",
+  "img/Vanne.png",
+  "img/web.png",
   "img/Movil.png",
   "img/Escritorio.png",
+  "img/oficina.png",
   "js/lib/registraServiceWorker.js",
   "./"
 ];
@@ -15,13 +32,12 @@ const ARCHIVOS = [
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
     caches.open(CACHE).then((cache) => {
-      // Usamos map para que si una imagen falla, las demás sigan
+      // Cargamos uno por uno para que si uno falla, no se detenga el logo y screenshots
       return Promise.allSettled(
         ARCHIVOS.map(url => cache.add(url))
-      );
+      ).then(() => self.skipWaiting());
     })
   );
-  self.skipWaiting();
 });
 
 self.addEventListener("activate", (evt) => {
@@ -37,6 +53,6 @@ self.addEventListener("activate", (evt) => {
 
 self.addEventListener("fetch", (evt) => {
   evt.respondWith(
-    fetch(evt.request).catch(() => caches.match(evt.request))
+    caches.match(evt.request).then((res) => res || fetch(evt.request))
   );
 });
