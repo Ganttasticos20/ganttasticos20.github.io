@@ -1,5 +1,5 @@
-const VERSION = "1.52";
-const CACHE = "Ganttasticos-v1.52";
+const VERSION = "1.60";
+const CACHE = "Ganttasticos-v1.53";
 
 const ARCHIVOS = [
   "index.html",
@@ -8,28 +8,20 @@ const ARCHIVOS = [
   "img/LOGO.png",
   "img/Movil.png",
   "img/Escritorio.png",
-  "img/oficina.png",
-  "img/analisis.png",
-  "img/BALTA.png",
-  "img/gyn.png",
-  "img/HECTOR.png",
-  "img/ITATI.png",
-  "img/MENDIETA.png",
-  "img/ROBER.png",
-  "img/Vanne.png",
   "js/lib/registraServiceWorker.js",
   "./"
 ];
 
-// Instalación: Carga lo que pueda, si algo falla lo ignora pero NO rompe el proceso
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
     caches.open(CACHE).then((cache) => {
+      // Usamos map para que si una imagen falla, las demás sigan
       return Promise.allSettled(
-        ARCHIVOS.map((url) => cache.add(url))
-      ).then(() => self.skipWaiting());
+        ARCHIVOS.map(url => cache.add(url))
+      );
     })
   );
+  self.skipWaiting();
 });
 
 self.addEventListener("activate", (evt) => {
@@ -44,9 +36,7 @@ self.addEventListener("activate", (evt) => {
 });
 
 self.addEventListener("fetch", (evt) => {
-  if (evt.request.method === "GET") {
-    evt.respondWith(
-      caches.match(evt.request).then((res) => res || fetch(evt.request))
-    );
-  }
+  evt.respondWith(
+    fetch(evt.request).catch(() => caches.match(evt.request))
+  );
 });
