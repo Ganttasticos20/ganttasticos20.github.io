@@ -6,18 +6,8 @@
   "theme_color": "#cbc693",
   "background_color": "#ffffff",
   "icons": [
-    {
-      "src": "img/LOGO2.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "img/LOGO.png",
-      "sizes": "2048x2048",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
+    { "src": "img/LOGO2.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "img/LOGO.png", "sizes": "2048x2048", "type": "image/png", "purpose": "maskable" }
   ],
   "screenshots": [
     {
@@ -36,46 +26,56 @@
     },
     {
       "src": "img/BALTA.png",
-      "sizes": "1087x1238",
+      "sizes": "1920x1080", 
       "type": "image/png",
       "form_factor": "wide",
       "label": "Balta"
     },
     {
       "src": "img/HECTOR.png",
-      "sizes": "1200x1600",
+      "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Hector"
     },
     {
       "src": "img/ROBER.png",
-      "sizes": "320x320",
+      "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Rober"
     },
     {
       "src": "img/Vanne.png",
-      "sizes": "774x1032",
+      "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Vanne"
     },
     {
       "src": "img/MENDIETA.png",
-      "sizes": "320x320",
+      "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Mendieta"
     },
     {
       "src": "img/ITATI.png",
-      "sizes": "860x1062",
+      "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Itati"
+    },
+    {
+      "_comentario": "Capturas extra con guion bajo para no romper la regla de aspecto de Chrome",
+      "_src": "img/analisis.png",
+      "sizes": "1920x1080",
+      "label": "Analisis"
+    },
+    {
+      "_src": "img/oficina.png",
+      "sizes": "1920x1080",
+      "label": "Oficina"
     }
-
   ]
 }
