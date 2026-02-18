@@ -1,5 +1,5 @@
 /* Archivo Service Worker - Ganttásticos (Versión Final Corregida) */
-const VERSION = "1.73";
+const VERSION = "1.74";
 const CACHE = "Ganttasticos-v1.73";
 
 const ARCHIVOS = [
