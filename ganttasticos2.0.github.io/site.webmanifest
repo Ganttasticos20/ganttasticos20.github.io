@@ -75,78 +75,7 @@
       "type": "image/png",
       "form_factor": "wide",
       "label": "Itati"
-    },
-    /*
-    {
-      "_comentario": "Capturas desactivadas para limpieza de consola",
-      "_src": "img/analisis.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Analisis"
-    },
-    {
-      "_src": "img/FRENTEGANT.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Frente Gantt"
-    },
-    {
-      "_src": "img/gyn.png",
-      "sizes": "946x912",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Gyn"
-    },
-    {
-      "_src": "img/iu.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "IU"
-    },
-    {
-      "_src": "img/oficina.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Oficina"
-    },
-    {
-      "_src": "img/PSICO.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Psico"
-    },
-    {
-      "_src": "img/psicologos.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Psicologos"
-    },
-    {
-      "_src": "img/pwa.png",
-      "sizes": "928x1120",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "PWA"
-    },
-    {
-      "_src": "img/sync.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Sync"
-    },
-    {
-      "_src": "img/web.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Web"*/
     }
+
   ]
 }
