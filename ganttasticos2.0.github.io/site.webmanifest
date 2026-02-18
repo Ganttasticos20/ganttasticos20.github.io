@@ -1,8 +1,8 @@
 {
-  "id": "/ganttasticos2.0.github.io/",
+  "id": "/ganttasticos2.0.github.io/ganttasticos2.0.github.io/index.html",
   "short_name": "Ganttasticos",
   "name": "GANTTASTICOS PWA",
-  "start_url": "./index.html",
+  "start_url": "/ganttasticos2.0.github.io/ganttasticos2.0.github.io/index.html",
   "display": "standalone",
   "theme_color": "#cbc693",
   "background_color": "#ffffff",
@@ -17,6 +17,48 @@
       "type": "image/png",
       "form_factor": "wide",
       "label": "Escritorio"
+    },
+    {
+      "src": "img/BALTA.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Balta"
+    },
+    {
+      "src": "img/HECTOR.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Hector"
+    },
+    {
+      "src": "img/ROBER.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Rober"
+    },
+    {
+      "src": "img/Vanne.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Vanne"
+    },
+    {
+      "src": "img/MENDIETA.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Mendieta"
+    },
+    {
+      "src": "img/ITATI.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Itati"
     },
     {
       "src": "img/Movil.png",
