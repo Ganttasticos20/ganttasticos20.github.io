@@ -65,17 +65,6 @@
       "type": "image/png",
       "form_factor": "wide",
       "label": "Itati"
-    },
-    {
-      "_comentario": "Capturas extra con guion bajo para no romper la regla de aspecto de Chrome",
-      "_src": "img/analisis.png",
-      "sizes": "1920x1080",
-      "label": "Analisis"
-    },
-    {
-      "_src": "img/oficina.png",
-      "sizes": "1920x1080",
-      "label": "Oficina"
     }
   ]
 }

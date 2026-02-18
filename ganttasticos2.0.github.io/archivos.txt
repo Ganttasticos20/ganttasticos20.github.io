@@ -21,7 +21,7 @@
  "img/web.png",
  "js/lib/registraServiceWorker.js",
 
-
+"
  {
       "_comentario": "Capturas desactivadas para limpieza de consola",
       "_src": "img/analisis.png",
@@ -94,4 +94,4 @@
       "label": "Web"
     }
   ]
-}
+}"
