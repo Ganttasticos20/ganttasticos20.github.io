@@ -8,6 +8,8 @@ const ARCHIVOS = [
   "css/estilos.css",
   "img/LOGO.png",
   "img/LOGO2.png",
+  "img/LOGO12.png",
+  "img/LOGO92.png",
   "img/analisis.png",
   "img/BALTA.png",
   "img/gyn.png",

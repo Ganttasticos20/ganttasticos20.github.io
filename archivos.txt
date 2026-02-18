@@ -19,4 +19,6 @@
  "img/sync.png",
  "img/Vanne.png",
  "img/web.png",
+ "img/LOGO12.png",
+  "img/LOGO92.png",
  "js/lib/registraServiceWorker.js"
