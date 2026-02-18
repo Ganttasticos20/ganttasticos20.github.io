@@ -28,6 +28,118 @@
       "label": "Escritorio"
     },
     {
+      "src": "img/analisis.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Analisis"
+    },
+    {
+      "src": "img/BALTA.png",
+      "sizes": "1087x1238",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Balta"
+    },
+    {
+      "src": "img/FRENTEGANT.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Frente Gantt"
+    },
+    {
+      "src": "img/gyn.png",
+      "sizes": "946x912",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Gyn"
+    },
+    {
+      "src": "img/HECTOR.png",
+      "sizes": "1200x1600",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Hector"
+    },
+    {
+      "src": "img/ITATI.png",
+      "sizes": "860x1062",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Itati"
+    },
+    {
+      "src": "img/iu.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "IU"
+    },
+    {
+      "src": "img/MENDIETA.png",
+      "sizes": "300x300",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Mendieta"
+    },
+    {
+      "src": "img/oficina.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Oficina"
+    },
+    {
+      "src": "img/PSICO.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Psico"
+    },
+    {
+      "src": "img/psicologos.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Psicologos"
+    },
+    {
+      "src": "img/pwa.png",
+      "sizes": "928x1120",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "PWA"
+    },
+    {
+      "src": "img/ROBER.png",
+      "sizes": "186x226",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Rober"
+    },
+    {
+      "src": "img/sync.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Sync"
+    },
+    {
+      "src": "img/Vanne.png",
+      "sizes": "774x1032",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Vanne"
+    },
+    {
+      "src": "img/web.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Web"
+    },
+    {
       "src": "img/Movil.png",
       "sizes": "1080x1920",
       "type": "image/png",
