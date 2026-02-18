@@ -28,11 +28,11 @@
       "label": "Escritorio"
     },
     {
-      "src": "img/analisis.png",
-      "sizes": "1024x1024",
+      "src": "img/Movil.png",
+      "sizes": "1080x1920",
       "type": "image/png",
-      "form_factor": "wide",
-      "label": "Analisis"
+      "form_factor": "narrow",
+      "label": "Movil"
     },
     {
       "src": "img/BALTA.png",
@@ -42,74 +42,11 @@
       "label": "Balta"
     },
     {
-      "src": "img/FRENTEGANT.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Frente Gantt"
-    },
-    {
-      "src": "img/gyn.png",
-      "sizes": "946x912",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Gyn"
-    },
-    {
       "src": "img/HECTOR.png",
       "sizes": "1200x1600",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Hector"
-    },
-    {
-      "src": "img/ITATI.png",
-      "sizes": "860x1062",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Itati"
-    },
-    {
-      "src": "img/iu.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "IU"
-    },
-    {
-      "src": "img/MENDIETA.png",
-      "sizes": "320x320",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Mendieta"
-    },
-    {
-      "src": "img/oficina.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Oficina"
-    },
-    {
-      "src": "img/PSICO.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Psico"
-    },
-    {
-      "src": "img/psicologos.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Psicologos"
-    },
-    {
-      "src": "img/pwa.png",
-      "sizes": "928x1120",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "PWA"
     },
     {
       "src": "img/ROBER.png",
@@ -119,13 +56,6 @@
       "label": "Rober"
     },
     {
-      "src": "img/sync.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Sync"
-    },
-    {
       "src": "img/Vanne.png",
       "sizes": "774x1032",
       "type": "image/png",
@@ -133,18 +63,89 @@
       "label": "Vanne"
     },
     {
-      "src": "img/web.png",
+      "src": "img/MENDIETA.png",
+      "sizes": "320x320",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Mendieta"
+    },
+    {
+      "src": "img/ITATI.png",
+      "sizes": "860x1062",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Itati"
+    },
+    {
+      "_comentario": "Capturas desactivadas para limpieza de consola",
+      "_src": "img/analisis.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Analisis"
+    },
+    {
+      "_src": "img/FRENTEGANT.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Frente Gantt"
+    },
+    {
+      "_src": "img/gyn.png",
+      "sizes": "946x912",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Gyn"
+    },
+    {
+      "_src": "img/iu.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "IU"
+    },
+    {
+      "_src": "img/oficina.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Oficina"
+    },
+    {
+      "_src": "img/PSICO.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Psico"
+    },
+    {
+      "_src": "img/psicologos.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Psicologos"
+    },
+    {
+      "_src": "img/pwa.png",
+      "sizes": "928x1120",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "PWA"
+    },
+    {
+      "_src": "img/sync.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Sync"
+    },
+    {
+      "_src": "img/web.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Web"
-    },
-    {
-      "src": "img/Movil.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Movil"
     }
   ]
 }
