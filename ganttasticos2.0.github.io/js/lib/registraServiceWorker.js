@@ -1,20 +1,18 @@
-// js/lib/main.js
-
 // Registro del Service Worker
-const nombreDeServiceWorker = "sw.js";
+// Usamos la ruta completa del repositorio para que GitHub Pages no duplique la URL
+const nombreDeServiceWorker = "/ganttasticos2.0.github.io/sw.js";
 
-try {
+if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register(nombreDeServiceWorker)
     .then(registro => {
-      console.log(nombreDeServiceWorker, "registrado.");
-      console.log(registro);
+      console.log("Service Worker registrado con éxito en:", registro.scope);
     })
-    .catch(error => console.log(error));
-} catch (error) {
-  console.log(error);
+    .catch(error => {
+      console.log("Error al registrar el SW:", error);
+    });
 }
 
-// Menú hamburguesa responsive
+// Menú hamburguesa (lo incluyo aquí por si lo tienes en este mismo archivo)
 document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.getElementById('hamburger');
   const navMenu = document.querySelector('.nav-menu');
