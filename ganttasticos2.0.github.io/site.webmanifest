@@ -78,7 +78,7 @@
     },
     {
       "src": "img/MENDIETA.png",
-      "sizes": "300x300",
+      "sizes": "320x320",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Mendieta"
@@ -113,7 +113,7 @@
     },
     {
       "src": "img/ROBER.png",
-      "sizes": "186x226",
+      "sizes": "320x320",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Rober"
