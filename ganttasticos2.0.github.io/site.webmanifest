@@ -76,6 +76,7 @@
       "form_factor": "wide",
       "label": "Itati"
     },
+    /*
     {
       "_comentario": "Capturas desactivadas para limpieza de consola",
       "_src": "img/analisis.png",
@@ -145,7 +146,7 @@
       "sizes": "1024x1024",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Web"
+      "label": "Web"*/
     }
   ]
 }
