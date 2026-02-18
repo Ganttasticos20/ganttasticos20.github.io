@@ -1,8 +1,8 @@
 {
-  "id": "/ganttasticos2.0.github.io/ganttasticos2.0.github.io/index.html",
+  "id": "./index.html",
   "short_name": "Ganttasticos",
   "name": "GANTTASTICOS PWA",
-  "start_url": "/ganttasticos2.0.github.io/ganttasticos2.0.github.io/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#cbc693",
   "background_color": "#ffffff",

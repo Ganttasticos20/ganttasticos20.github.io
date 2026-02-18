@@ -1,6 +1,5 @@
-// Registro del Service Worker
-// Usamos la ruta completa del repositorio para que GitHub Pages no duplique la URL
-const nombreDeServiceWorker = "/ganttasticos2.0.github.io/sw.js";
+// Registro del Service Worker corregido para la raíz
+const nombreDeServiceWorker = "./sw.js"; 
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register(nombreDeServiceWorker)
@@ -12,7 +11,7 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-// Menú hamburguesa (lo incluyo aquí por si lo tienes en este mismo archivo)
+// Menú hamburguesa
 document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.getElementById('hamburger');
   const navMenu = document.querySelector('.nav-menu');

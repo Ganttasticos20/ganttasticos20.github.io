@@ -1,6 +1,6 @@
-/* Archivo Service Worker - Ganttásticos */
-const VERSION = "1.69";
-const CACHE = "Ganttasticos-v1.53";
+/* Archivo Service Worker - Ganttásticos (Versión Final Corregida) */
+const VERSION = "1.72";
+const CACHE = "Ganttasticos-v1.72";
 
 const ARCHIVOS = [
   "index.html",
@@ -33,7 +33,7 @@ const ARCHIVOS = [
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
     caches.open(CACHE).then((cache) => {
-      // Cargamos uno por uno para que si uno falla, no se detenga el logo y screenshots
+      // Usamos Promise.allSettled para que si falta una imagen, el SW se instale de todos modos
       return Promise.allSettled(
         ARCHIVOS.map(url => cache.add(url))
       ).then(() => self.skipWaiting());
