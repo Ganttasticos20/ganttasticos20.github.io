@@ -1,10 +1,11 @@
-const VERSION = "3.1"; 
-const CACHE = "Ganttasticos-v3.1"; 
+/* Archivo Service Worker - Ganttásticos (VERSIÓN FINAL) */
+const VERSION = "4.0"; 
+const CACHE = "Ganttasticos-v4.0"; 
 
 const ARCHIVOS = [
   "./",
   "index.html",
-  "manifest.json",
+  "manifest.json", 
   "css/estilos.css",
   "img/LOGO.png",
   "img/LOGO12.png",
@@ -15,8 +16,12 @@ const ARCHIVOS = [
 
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
-    caches.open(CACHE).then((cache) => cache.addAll(ARCHIVOS))
-      .then(() => self.skipWaiting())
+    caches.open(CACHE).then((cache) => {
+      // Usamos map y catch para que si un archivo falla, no detenga todo
+      return Promise.allSettled(
+        ARCHIVOS.map(url => cache.add(url))
+      ).then(() => self.skipWaiting());
+    })
   );
 });
 
