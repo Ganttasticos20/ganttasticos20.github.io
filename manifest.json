@@ -7,12 +7,6 @@
   "theme_color": "#020617",
   "icons": [
     {
-      "src": "img/LOGO12.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
       "src": "img/maskable_icon_x192.png",
       "sizes": "192x192",
       "type": "image/png",
@@ -23,16 +17,17 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    },
+    {
+      "src": "img/LOGO12.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "screenshots": [
     { "src": "img/Escritorio.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Escritorio" },
-    { "src": "img/BALTA.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Balta" },
-    { "src": "img/HECTOR.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Hector" },
-    { "src": "img/ROBER.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Rober" },
-    { "src": "img/Vanne.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Vanne" },
-    { "src": "img/MENDIETA.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Mendieta" },
-    { "src": "img/ITATI.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Itati" },
+    { "src": "img/BALTA.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Equipo" },
     { "src": "img/Movil.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow", "label": "Movil" }
   ]
 }
