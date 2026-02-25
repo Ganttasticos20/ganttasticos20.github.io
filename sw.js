@@ -1,6 +1,5 @@
-/* Archivo Service Worker - Ganttásticos (VERSIÓN DEFINITIVA) */
-const VERSION = "3.0"; 
-const CACHE = "Ganttasticos-v3.0"; 
+const VERSION = "3.1"; 
+const CACHE = "Ganttasticos-v3.1"; 
 
 const ARCHIVOS = [
   "./",
@@ -16,9 +15,8 @@ const ARCHIVOS = [
 
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
-    caches.open(CACHE).then((cache) => {
-      return cache.addAll(ARCHIVOS);
-    }).then(() => self.skipWaiting())
+    caches.open(CACHE).then((cache) => cache.addAll(ARCHIVOS))
+      .then(() => self.skipWaiting())
   );
 });
 
