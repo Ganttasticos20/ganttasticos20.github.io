@@ -1,6 +1,6 @@
 "favicon.ico",
  "index.html",
- "site.webmanifest",
+ "manifest.json",
  "css/estilos.css",
  "img/analisis.png",
  "img/BALTA.png",

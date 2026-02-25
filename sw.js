@@ -1,5 +1,4 @@
-const CACHE_NAME = "gantt-v30";
-// Solo los archivos que SI existen y son necesarios
+const CACHE_NAME = "gantt-v50";
 const ASSETS = [
   "./",
   "index.html",
@@ -19,9 +18,9 @@ const ASSETS = [
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      // Usamos map y catch para que si un archivo falta, no se trabe el resto
+      // Promise.allSettled evita el error "Failed to execute addAll"
       return Promise.allSettled(
-        ASSETS.map(url => cache.add(url).catch(err => console.log("Falta: " + url)))
+        ASSETS.map(url => cache.add(url).catch(err => console.log("Falta archivo: " + url)))
       );
     })
   );
