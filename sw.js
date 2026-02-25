@@ -1,6 +1,6 @@
 /* Archivo Service Worker - Ganttásticos (Versión Actualizada con Maskables) */
-const VERSION = "1.78"; 
-const CACHE = "Ganttasticos-v1.78"; // Actualizamos la versión de caché también
+const VERSION = "1.80"; 
+const CACHE = "Ganttasticos-v1.80"; // Actualizamos la versión de caché también
 
 const ARCHIVOS = [
   "index.html",
