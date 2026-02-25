@@ -35,7 +35,7 @@
     { "src": "img/Vanne.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Vanne" },
     { "src": "img/MENDIETA.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Mendieta" },
     { "src": "img/ITATI.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Itati" },
-    { "src": "img/Movil.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow", "label": "Movil" },
+    { "src": "img/Movil.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow", "label": "Movil" }
     
   ]
 }
