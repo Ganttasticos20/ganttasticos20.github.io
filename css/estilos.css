@@ -13,7 +13,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* NAVBAR */
+/* NAVBAR ACTUALIZADA */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,8 +23,30 @@ body {
   z-index: 100;
   background: rgba(2, 6, 23, 0.95);
   backdrop-filter: blur(10px);
-  padding: 0.5rem 1.5rem;
   border-bottom: 1px solid #1e293b;
+
+  /* Área para que no choquen los botones de cerrar/minimizar de Windows */
+  padding-top: env(titlebar-area-inset-top, 0.5rem);
+  padding-left: env(titlebar-area-inset-left, 1.5rem);
+  padding-right: env(titlebar-area-inset-right, 1.5rem);
+  padding-bottom: 0.5rem;
+  
+  /* Altura automática según la barra del sistema */
+  height: calc(env(titlebar-area-inset-height, 60px) + 10px);
+
+  /* Permite arrastrar la ventana de la PWA desde la barra */
+  app-region: drag;
+  -webkit-app-region: drag;
+}
+
+/* IMPORTANTE: Los botones y el buscador deben ser clicables (quitar el drag) */
+.nav-logo, 
+.nav-menu li a, 
+.nav-search input, 
+.nav-search button, 
+.hamburger {
+  app-region: no-drag;
+  -webkit-app-region: no-drag;
 }
 
 .nav-left {
@@ -106,19 +128,6 @@ body {
   border-radius: 2px;
 }
 
-.nav-menu.show {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 60px;
-  right: 1.5rem;
-  background: rgba(2, 6, 23, 0.95);
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(56,189,248,0.5);
-  gap: 1rem;
-}
-
 /* HERO */
 .hero {
   display: flex;
@@ -179,7 +188,6 @@ body {
   color: #facc15;
 }
 
-/* GRID */
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -345,7 +353,6 @@ body {
   .grid, .grid-proyectos {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .grid-habilidades {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -355,15 +362,9 @@ body {
   .grid, .grid-proyectos, .grid-habilidades {
     grid-template-columns: 1fr;
   }
-
-  .hero {
-    flex-direction: column;
-  }
-
   .hero h1 {
     font-size: 2.3rem;
   }
-
   .foto {
     width: 120px;
     height: 120px;
@@ -371,29 +372,22 @@ body {
 }
 
 @media (max-width: 768px) {
-  .nav-menu,
-  .nav-search {
+  .nav-menu, .nav-search {
     display: none;
   }
-
   .hamburger {
     display: flex;
   }
-  @media(max-width:768px){
-  .nav-menu,.nav-search{display:none;}
-  .hamburger{display:flex;}
-}
-.nav-menu.show{
-  display:flex;
-  flex-direction:column;
-  position:absolute;
-  top:60px;
-  right:1.5rem;
-  background:rgba(2,6,23,0.95);
-  padding:1rem;
-  border-radius:8px;
-  box-shadow:0 0 15px rgba(56,189,248,0.5);
-  gap:1rem;
-}
-
+  .nav-menu.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 1.5rem;
+    background: rgba(2, 6, 23, 0.95);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(56,189,248,0.5);
+    gap: 1rem;
+  }
 }
