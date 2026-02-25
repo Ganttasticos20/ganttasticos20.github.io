@@ -1,6 +1,6 @@
-/* Archivo Service Worker - Ganttásticos (Versión Final Corregida) */
-const VERSION = "1.74";
-const CACHE = "Ganttasticos-v1.73";
+/* Archivo Service Worker - Ganttásticos (Versión Actualizada con Maskables) */
+const VERSION = "1.78"; 
+const CACHE = "Ganttasticos-v1.78"; // Actualizamos la versión de caché también
 
 const ARCHIVOS = [
   "index.html",
@@ -28,6 +28,16 @@ const ARCHIVOS = [
   "img/Movil.png",
   "img/Escritorio.png",
   "img/oficina.png",
+  // --- Nuevos Iconos Maskables ---
+  "img/maskable_icon_x48.png",
+  "img/maskable_icon_x72.png",
+  "img/maskable_icon_x96.png",
+  "img/maskable_icon_x128.png",
+  "img/maskable_icon_x192.png",
+  "img/maskable_icon_x384.png",
+  "img/maskable_icon_x512.png",
+  "img/maskable_icon.png",
+  // -------------------------------
   "js/lib/registraServiceWorker.js",
   "./"
 ];
