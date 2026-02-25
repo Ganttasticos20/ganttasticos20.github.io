@@ -1,10 +1,10 @@
-/* Archivo Service Worker - Ganttásticos (Versión Restaurada) */
+
 const VERSION = "1.85"; 
 const CACHE = "Ganttasticos-v1.85"; 
 
 const ARCHIVOS = [
   "index.html",
-  "manifest.json", // <-- Asegúrate que este nombre sea el mismo que tu archivo
+  "site.webmanifest",
   "css/estilos.css",
   "img/LOGO.png",
   "img/LOGO2.png",
