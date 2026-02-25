@@ -5,7 +5,7 @@ const CACHE = "Ganttasticos-v4.0";
 const ARCHIVOS = [
   "./",
   "index.html",
-  "manifest.json", 
+  "examen.json", 
   "css/estilos.css",
   "img/LOGO.png",
   "img/LOGO12.png",

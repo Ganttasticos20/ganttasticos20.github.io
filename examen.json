@@ -30,15 +30,13 @@
       "src": "img/Escritorio.png",
       "sizes": "1920x1080",
       "type": "image/png",
-      "form_factor": "wide",
-      "label": "Escritorio"
+      "form_factor": "wide"
     },
     {
       "src": "img/Movil.png",
       "sizes": "1080x1920",
       "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Movil"
+      "form_factor": "narrow"
     }
   ]
 }
