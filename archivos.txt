@@ -1,6 +1,6 @@
 "favicon.ico",
  "index.html",
- "manifest.json",
+ "site.webmanifest",
  "css/estilos.css",
  "img/analisis.png",
  "img/BALTA.png",
@@ -20,5 +20,12 @@
  "img/Vanne.png",
  "img/web.png",
  "img/LOGO12.png",
-  "img/LOGO92.png",
+ "img/LOGO92.png",
+ "maskable_icon_x48.png"
+ "maskable_icon_x48.png"
+ "maskable_icon_x48.png"
+ "maskable_icon_x48.png"
+ "maskable_icon_x48.png"
+ "maskable_icon_x48.png"
+
  "js/lib/registraServiceWorker.js"

@@ -1,37 +1,43 @@
-const CACHE_NAME = "gantt-v50";
-const ASSETS = [
+/* Archivo Service Worker - Ganttásticos (VERSIÓN FINAL) */
+const VERSION = "4.0"; 
+const CACHE = "Ganttasticos-v4.0"; 
+
+const ARCHIVOS = [
   "./",
   "index.html",
-  "manifest.json",
+  "manifest.json", 
   "css/estilos.css",
-  "img/BALTA.png",
-  "img/HECTOR.png",
-  "img/ITATI.png",
-  "img/MENDIETA.png",
-  "img/ROBER.png",
-  "img/Vanne.png",
+  "img/LOGO.png",
   "img/LOGO12.png",
   "img/maskable_icon_x192.png",
-  "img/maskable_icon_x512.png"
+  "img/maskable_icon_x512.png",
+  "js/lib/registraServiceWorker.js"
 ];
 
-self.addEventListener("install", (e) => {
-  e.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      // Promise.allSettled evita el error "Failed to execute addAll"
+self.addEventListener("install", (evt) => {
+  evt.waitUntil(
+    caches.open(CACHE).then((cache) => {
+      // Usamos map y catch para que si un archivo falla, no detenga todo
       return Promise.allSettled(
-        ASSETS.map(url => cache.add(url).catch(err => console.log("Falta archivo: " + url)))
+        ARCHIVOS.map(url => cache.add(url))
+      ).then(() => self.skipWaiting());
+    })
+  );
+});
+
+self.addEventListener("activate", (evt) => {
+  evt.waitUntil(
+    caches.keys().then((keys) => {
+      return Promise.all(
+        keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))
       );
     })
   );
-  self.skipWaiting();
-});
-
-self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.map((k) => k !== CACHE_NAME && caches.delete(k)))));
   self.clients.claim();
 });
 
-self.addEventListener("fetch", (e) => {
-  e.respondWith(caches.match(e.request).then((res) => res || fetch(e.request)));
+self.addEventListener("fetch", (evt) => {
+  evt.respondWith(
+    caches.match(evt.request).then((res) => res || fetch(evt.request))
+  );
 });
