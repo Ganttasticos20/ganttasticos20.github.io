@@ -27,7 +27,7 @@
   ],
   "screenshots": [
     { "src": "img/Escritorio.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Escritorio" },
-    { "src": "img/BALTA.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Equipo" },
+    { "src": "img/BALTA.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Balti" },
     { "src": "img/Movil.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow", "label": "Movil" }
   ]
 }
