@@ -1,5 +1,5 @@
 
-const VERSION = "1.98" 
+const VERSION = "2.0" 
 const CACHE = "Ganttasticos-v1.85"; 
 
 const ARCHIVOS = [
