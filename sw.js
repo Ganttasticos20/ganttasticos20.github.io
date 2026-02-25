@@ -1,43 +1,16 @@
-/* Archivo Service Worker - Ganttásticos (VERSIÓN FINAL) */
-const VERSION = "4.0"; 
-const CACHE = "Ganttasticos-v4.0"; 
+const CACHE_NAME = "v10";
+const ASSETS = ["./", "index.html", "examen.json", "css/estilos.css"];
 
-const ARCHIVOS = [
-  "./",
-  "index.html",
-  "examen.json", 
-  "css/estilos.css",
-  "img/LOGO.png",
-  "img/LOGO12.png",
-  "img/maskable_icon_x192.png",
-  "img/maskable_icon_x512.png",
-  "js/lib/registraServiceWorker.js"
-];
-
-self.addEventListener("install", (evt) => {
-  evt.waitUntil(
-    caches.open(CACHE).then((cache) => {
-      // Usamos map y catch para que si un archivo falla, no detenga todo
-      return Promise.allSettled(
-        ARCHIVOS.map(url => cache.add(url))
-      ).then(() => self.skipWaiting());
-    })
-  );
+self.addEventListener("install", (e) => {
+  e.waitUntil(caches.open(CACHE_NAME).then((c) => c.addAll(ASSETS)));
+  self.skipWaiting();
 });
 
-self.addEventListener("activate", (evt) => {
-  evt.waitUntil(
-    caches.keys().then((keys) => {
-      return Promise.all(
-        keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))
-      );
-    })
-  );
+self.addEventListener("activate", (e) => {
+  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.map((k) => k !== CACHE_NAME && caches.delete(k)))));
   self.clients.claim();
 });
 
-self.addEventListener("fetch", (evt) => {
-  evt.respondWith(
-    caches.match(evt.request).then((res) => res || fetch(evt.request))
-  );
+self.addEventListener("fetch", (e) => {
+  e.respondWith(caches.match(e.request).then((res) => res || fetch(e.request)));
 });
