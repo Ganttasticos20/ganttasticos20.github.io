@@ -1,10 +1,10 @@
 {
-  "short_name": "Ganttasticos",
   "name": "GANTTASTICOS PWA",
+  "short_name": "Ganttasticos",
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#020617",
   "background_color": "#ffffff",
+  "theme_color": "#020617",
   "icons": [
     {
       "src": "img/maskable_icon_x192.png",
