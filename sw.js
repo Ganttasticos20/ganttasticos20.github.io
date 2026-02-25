@@ -1,10 +1,10 @@
-/* Archivo Service Worker - Ganttásticos (Versión Actualizada con Maskables) */
-const VERSION = "1.80"; 
-const CACHE = "Ganttasticos-v1.80"; // Actualizamos la versión de caché también
+/* Archivo Service Worker - Ganttásticos (VERSIÓN FINAL PARA EXAMEN) */
+const VERSION = "2.0"; 
+const CACHE = "Ganttasticos-v2.0"; 
 
 const ARCHIVOS = [
   "index.html",
-  "site.webmanifest",
+  "manifest.json", // Asegúrate de que se llame así
   "css/estilos.css",
   "img/LOGO.png",
   "img/LOGO2.png",
@@ -28,16 +28,9 @@ const ARCHIVOS = [
   "img/Movil.png",
   "img/Escritorio.png",
   "img/oficina.png",
-  // --- Nuevos Iconos Maskables ---
-  "img/maskable_icon_x48.png",
-  "img/maskable_icon_x72.png",
-  "img/maskable_icon_x96.png",
-  "img/maskable_icon_x128.png",
   "img/maskable_icon_x192.png",
-  "img/maskable_icon_x384.png",
   "img/maskable_icon_x512.png",
   "img/maskable_icon.png",
-  // -------------------------------
   "js/lib/registraServiceWorker.js",
   "./"
 ];
@@ -45,7 +38,6 @@ const ARCHIVOS = [
 self.addEventListener("install", (evt) => {
   evt.waitUntil(
     caches.open(CACHE).then((cache) => {
-      // Usamos Promise.allSettled para que si falta una imagen, el SW se instale de todos modos
       return Promise.allSettled(
         ARCHIVOS.map(url => cache.add(url))
       ).then(() => self.skipWaiting());
