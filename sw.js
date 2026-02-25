@@ -1,5 +1,5 @@
 
-const VERSION = "1.93" 
+const VERSION = "1.94" 
 const CACHE = "Ganttasticos-v1.85"; 
 
 const ARCHIVOS = [
@@ -31,7 +31,7 @@ const ARCHIVOS = [
   "img/maskable_icon_x72.png",
   "img/maskable_icon_x96.png",
   "img/maskable_icon_x128.png",
-  //"img/maskable_icon_x192.png",
+  "img/maskable_icon_x192.png",
   "img/maskable_icon_x384.png",
   "img/maskable_icon_x512.png",
   "img/maskable_icon.png",
