@@ -3,7 +3,7 @@
   "short_name": "Ganttasticos",
   "name": "GANTTASTICOS PWA",
   "start_url": "./index.html",
-  "description": "Gantasticos",
+  "description": "Gantasticos pwa",
   "display_override": ["window-controls-overlay"],
   "display": "standalone",
   "theme_color": "#020617",
