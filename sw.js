@@ -1,5 +1,5 @@
 
-const VERSION = "2.6" 
+const VERSION = "2.7" 
 const CACHE = "Ganttasticos-v1.85"; 
 
 const ARCHIVOS = [
@@ -15,6 +15,7 @@ const ARCHIVOS = [
   "img/gyn.png",
   "img/FRENTEGANT.png",
   "img/HECTOR.png",
+
   "img/ITATI.png",
   "img/iu.png",
   "img/MENDIETA.png",
