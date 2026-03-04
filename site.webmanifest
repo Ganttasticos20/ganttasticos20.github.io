@@ -12,15 +12,15 @@
  "description": "PWA Basic",
  "screenshots": [
   {
-   "src": "img/screenshot_horizontal.png",
-   "sizes": "1280x720",
+   "src": "img/Escritorio.png",
+   "sizes": "1920x1080",
    "type": "image/png",
    "form_factor": "wide",
    "label": "PWA con Material Design"
   },
   {
-   "src": "img/screenshot_vertical.png",
-   "sizes": "540x720",
+   "src": "img/movil.png",
+   "sizes": "1080x1920",
    "type": "image/png",
    "form_factor": "narrow",
    "label": "PWA con Material Design (2)"
