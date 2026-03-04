@@ -1,6 +1,6 @@
 {
- "short_name": "Lista PWA",
- "name": "Ganttasticos",
+ "short_name": "Ganttasticos",
+ "name": "Ganttasticos PWA",
  "id": "/",
  "start_url": "/",
  "display": "standalone",
