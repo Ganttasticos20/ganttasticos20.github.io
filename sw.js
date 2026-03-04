@@ -1,5 +1,5 @@
 
-const VERSION = "2.0" 
+const VERSION = "2.4" 
 const CACHE = "Ganttasticos-v1.85"; 
 
 const ARCHIVOS = [
@@ -34,6 +34,7 @@ const ARCHIVOS = [
   "img/maskable_icon_x192.png",
   "img/maskable_icon_x384.png",
   "img/maskable_icon_x512.png",
+  "img/maskable_icon2048.png",
   "img/maskable_icon.png",
   "js/lib/registraServiceWorker.js",
   "./"

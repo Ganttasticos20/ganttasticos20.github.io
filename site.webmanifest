@@ -4,8 +4,8 @@
  "id": "/",
  "start_url": "/",
  "display": "standalone",
- "theme_color": "##FFFFFF",
- "background_color": "##34B3E4",
+ "theme_color": "#FFFFFF",
+ "background_color": "#34B3E4",
  "display_override": [
   "window-controls-overlay"
  ],
