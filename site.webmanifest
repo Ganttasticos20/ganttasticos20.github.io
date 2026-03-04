@@ -6,9 +6,7 @@
  "display": "standalone",
  "theme_color": "#FFFFFF",
  "background_color": "#34B3E4",
- "display_override": [
-  "window-controls-overlay"
- ],
+ "display_override": [ "window-controls-overlay"],
  "description": "PWA Basic",
  "screenshots": [
   {
