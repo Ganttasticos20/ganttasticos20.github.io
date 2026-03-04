@@ -4,8 +4,8 @@
  "id": "/",
  "start_url": "/",
  "display": "standalone",
- "theme_color": "#fffbfe",
- "background_color": "#fffbfe",
+ "theme_color": "##FFFFFF",
+ "background_color": "##34B3E4",
  "display_override": [
   "window-controls-overlay"
  ],
@@ -70,16 +70,11 @@
    "purpose": "any"
   },
   {
-   "src": "img/maskable_icon.png",
-   "sizes": "3413x3413",
-   "type": "image/png",
-   "purpose": "any"
-  },
-  {
-   "src": "img/icono2048.png",
+   "src": "img/maskable_icon2048.png",
    "sizes": "2048x2048",
    "type": "image/png",
    "purpose": "any"
+  
   },
   {
    "src": "img/maskable_icon_x48.png",
@@ -124,8 +119,8 @@
    "purpose": "maskable"
   },
   {
-   "src": "img/maskable_icon.png",
-   "sizes": "3413x3413",
+   "src": "img/maskable_icon2048.png",
+   "sizes": "2048x2048",
    "type": "image/png",
    "purpose": "maskable"
   }
